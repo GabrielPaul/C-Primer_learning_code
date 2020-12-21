@@ -37,6 +37,29 @@ StringBad::~StringBad()		//necessary destructor
 	delete[]str;
 }
 
+StringBad::StringBad(const StringBad& st)
+{
+	num_strings++;
+	len = st.len;
+	str = new char[len + 1];
+	std::strcpy(str, st.str);
+	cout << num_strings << ":\"" << str
+		<< "\" object created \n";
+}
+
+StringBad& StringBad::operator =(const StringBad& st) 
+{
+	if (this == &st) 
+	{
+		return *this;
+	}
+	delete[] str;	//free old string
+	len = st.len;
+	str = new char[len + 1];
+	std::strcpy(str, st.str);
+	return *this;
+}
+
 std::ostream& operator<<(std::ostream& os,
 	const StringBad& st)
 {

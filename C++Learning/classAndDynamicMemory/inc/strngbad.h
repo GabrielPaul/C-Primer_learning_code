@@ -11,6 +11,8 @@ public:
 	StringBad(const char* s);
 	StringBad();
 	~StringBad();
+	StringBad(const StringBad& st);	//copy constructor
+	StringBad& operator =(const StringBad& st);
 
 	//friend function
 	friend std::ostream& operator <<(std::ostream& os,
