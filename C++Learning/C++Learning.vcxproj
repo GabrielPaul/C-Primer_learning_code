@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="classAndDynamicMemory\src\String.cpp" />
     <ClCompile Include="classAndDynamicMemory\src\strngbad.cpp" />
     <ClCompile Include="classAndDynamicMemory\src\useStrngBadX.cpp" />
     <ClCompile Include="main.cpp" />
@@ -153,6 +154,7 @@
     <ClCompile Include="typeTransform\src\typTranExp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="classAndDynamicMemory\inc\String.h" />
     <ClInclude Include="classAndDynamicMemory\inc\strngbad.h" />
     <ClInclude Include="classAndDynamicMemory\inc\useStrngBadX.h" />
     <ClInclude Include="overloadOpera\inc\mytime0.h" />
