@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\overloadOpera">
+      <UniqueIdentifier>{d303a6c7-8137-443e-a084-5419407b7a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\overloadOpera">
+      <UniqueIdentifier>{0e71f26d-7aba-4037-aa67-ddbebf9d5be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\typeTransform">
+      <UniqueIdentifier>{f2d3a837-2cd4-48bf-a21c-a32e5b5e1099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\typeTransform">
+      <UniqueIdentifier>{997b782d-3c88-4e79-b2f8-a8f94f6a594d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\classAndDynamicMemory">
+      <UniqueIdentifier>{aa442d2f-fa96-4894-a82a-ee19a29138ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\classAndDynamicMemory">
+      <UniqueIdentifier>{b968234a-a989-4e73-b534-1cf6d074720f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="overloadOpera\src\mytime0.cpp">
+      <Filter>源文件\overloadOpera</Filter>
+    </ClCompile>
+    <ClCompile Include="overloadOpera\src\mytime1.cpp">
+      <Filter>源文件\overloadOpera</Filter>
+    </ClCompile>
+    <ClCompile Include="overloadOpera\src\useMytimeX.cpp">
+      <Filter>源文件\overloadOpera</Filter>
+    </ClCompile>
+    <ClCompile Include="overloadOpera\src\mytime2.cpp">
+      <Filter>源文件\overloadOpera</Filter>
+    </ClCompile>
+    <ClCompile Include="overloadOpera\src\mytime3.cpp">
+      <Filter>源文件\overloadOpera</Filter>
+    </ClCompile>
+    <ClCompile Include="overloadOpera\src\vector.cpp">
+      <Filter>源文件\overloadOpera</Filter>
+    </ClCompile>
+    <ClCompile Include="typeTransform\src\stonewt.cpp">
+      <Filter>源文件\typeTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="classAndDynamicMemory\src\strngbad.cpp">
+      <Filter>源文件\classAndDynamicMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="typeTransform\src\stonewt1.cpp">
+      <Filter>源文件\typeTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="typeTransform\src\typTranExp.cpp">
+      <Filter>源文件\typeTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="classAndDynamicMemory\src\useStrngBadX.cpp">
+      <Filter>源文件\classAndDynamicMemory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="overloadOpera\inc\mytime0.h">
+      <Filter>头文件\overloadOpera</Filter>
+    </ClInclude>
+    <ClInclude Include="overloadOpera\inc\mytime1.h">
+      <Filter>头文件\overloadOpera</Filter>
+    </ClInclude>
+    <ClInclude Include="overloadOpera\inc\useMytimeX.h">
+      <Filter>头文件\overloadOpera</Filter>
+    </ClInclude>
+    <ClInclude Include="overloadOpera\inc\mytime2.h">
+      <Filter>头文件\overloadOpera</Filter>
+    </ClInclude>
+    <ClInclude Include="overloadOpera\inc\mytime3.h">
+      <Filter>头文件\overloadOpera</Filter>
+    </ClInclude>
+    <ClInclude Include="overloadOpera\inc\vector.h">
+      <Filter>头文件\overloadOpera</Filter>
+    </ClInclude>
+    <ClInclude Include="typeTransform\inc\stonewt.h">
+      <Filter>头文件\typeTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="typeTransform\inc\typTranExp.h">
+      <Filter>头文件\typeTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="typeTransform\inc\stonewt1.h">
+      <Filter>头文件\typeTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="classAndDynamicMemory\inc\strngbad.h">
+      <Filter>头文件\classAndDynamicMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="classAndDynamicMemory\inc\useStrngBadX.h">
+      <Filter>头文件\classAndDynamicMemory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
