@@ -17,4 +17,14 @@ public:
 	friend std::ostream& operator <<(std::ostream& os,
 		const String& st);
 
+	//add new functions
+	int length()const { return len; };
+	friend bool operator<(const String& st, const String& st2);
+	friend bool operator>(const String& st, const String& st2);
+	friend bool operator==(const String& st, const String& st2);
+	friend std::istream& operator>>(std::istream& is,String& st);
+	char& operator[](int i);
+	const char& operator[](int i)const;
+	static int HowMany();
+	String& operator =(const char* s);
 };
