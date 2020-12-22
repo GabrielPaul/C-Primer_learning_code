@@ -1,0 +1,1 @@
+this example is about simulate a situation that queue in front of the bank.

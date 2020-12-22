@@ -2,6 +2,7 @@
 #include "overloadOpera/inc/useMytimeX.h"
 #include"typeTransform/inc/typTranExp.h"
 #include "classAndDynamicMemory/inc/useStrngBadX.h"
+#include"example/Queue/inc/useQueue.h"
 
 int main()
 {
@@ -16,5 +17,6 @@ int main()
 	//chapter 12
 	//useStrngBad();
 	//useString();
-	useString2();
+	//useString2();
+	useQueue();
 }

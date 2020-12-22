@@ -31,6 +31,18 @@
     <Filter Include="源文件\classAndDynamicMemory">
       <UniqueIdentifier>{b968234a-a989-4e73-b534-1cf6d074720f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\example">
+      <UniqueIdentifier>{1c18ffa0-2b8c-4106-b4bf-699b73601900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\example">
+      <UniqueIdentifier>{859808c0-3915-4bb2-b622-df7a6e831eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\example\Queue">
+      <UniqueIdentifier>{0c28c94f-2c1e-4bce-b0f3-33c37c84d9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\example\Queue">
+      <UniqueIdentifier>{891bc6a6-3cba-4fe6-8d16-908ab28dd5e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -72,6 +84,15 @@
     <ClCompile Include="classAndDynamicMemory\src\String.cpp">
       <Filter>源文件\classAndDynamicMemory</Filter>
     </ClCompile>
+    <ClCompile Include="example\Queue\src\Queue.cpp">
+      <Filter>源文件\example\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="example\Queue\src\useQueue.cpp">
+      <Filter>源文件\example\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="example\Queue\inc\Customer.cpp">
+      <Filter>源文件\example\Queue</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="overloadOpera\inc\mytime0.h">
@@ -109,6 +130,15 @@
     </ClInclude>
     <ClInclude Include="classAndDynamicMemory\inc\String.h">
       <Filter>头文件\classAndDynamicMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="example\Queue\inc\Queue.h">
+      <Filter>头文件\example\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="example\Queue\inc\Customer.h">
+      <Filter>头文件\example\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="example\Queue\inc\useQueue.h">
+      <Filter>头文件\example\Queue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
