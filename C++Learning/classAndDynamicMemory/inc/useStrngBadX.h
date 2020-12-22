@@ -1,1 +1,2 @@
 void useStrngBad();
+void useString();

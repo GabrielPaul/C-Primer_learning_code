@@ -14,5 +14,6 @@ int main()
 	//useStonewt1();
 
 	//chapter 12
-	useStrngBad();
+	//useStrngBad();
+	useString();
 }
