@@ -15,5 +15,6 @@ int main()
 
 	//chapter 12
 	//useStrngBad();
-	useString();
+	//useString();
+	useString2();
 }
