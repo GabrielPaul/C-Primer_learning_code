@@ -3,6 +3,7 @@
 #include"typeTransform/inc/typTranExp.h"
 #include "classAndDynamicMemory/inc/useStrngBadX.h"
 #include"example/Queue/inc/useQueue.h"
+#include"classInheritance/inc/useClassExample.h"
 
 int main()
 {
@@ -18,5 +19,9 @@ int main()
 	//useStrngBad();
 	//useString();
 	//useString2();
-	useQueue();
+	//useQueue();
+
+	//chapter 13
+	//useBaseClass();
+	usett1();
 }

@@ -43,6 +43,12 @@
     <Filter Include="源文件\example\Queue">
       <UniqueIdentifier>{891bc6a6-3cba-4fe6-8d16-908ab28dd5e3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\classInheritance">
+      <UniqueIdentifier>{1a29b7b0-38a9-42ed-b4e6-07ea5233169d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\classInheritance">
+      <UniqueIdentifier>{7a79dfe6-817e-4577-ac6a-ae8b1c7faed9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -93,6 +99,15 @@
     <ClCompile Include="example\Queue\inc\Customer.cpp">
       <Filter>源文件\example\Queue</Filter>
     </ClCompile>
+    <ClCompile Include="classInheritance\src\tabtenn0.cpp">
+      <Filter>源文件\classInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="classInheritance\src\useClassExample.cpp">
+      <Filter>源文件\classInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="classInheritance\inc\tabtenn1.cpp">
+      <Filter>源文件\classInheritance</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="overloadOpera\inc\mytime0.h">
@@ -139,6 +154,15 @@
     </ClInclude>
     <ClInclude Include="example\Queue\inc\useQueue.h">
       <Filter>头文件\example\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="classInheritance\inc\tabtenn0.h">
+      <Filter>头文件\classInheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="classInheritance\inc\useClassExample.h">
+      <Filter>头文件\classInheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="classInheritance\inc\tabtenn1.h">
+      <Filter>头文件\classInheritance</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
