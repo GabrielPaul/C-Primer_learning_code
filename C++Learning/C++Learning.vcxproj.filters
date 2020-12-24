@@ -105,7 +105,10 @@
     <ClCompile Include="classInheritance\src\useClassExample.cpp">
       <Filter>源文件\classInheritance</Filter>
     </ClCompile>
-    <ClCompile Include="classInheritance\inc\tabtenn1.cpp">
+    <ClCompile Include="classInheritance\src\brass.cpp">
+      <Filter>源文件\classInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="classInheritance\src\tabtenn1.cpp">
       <Filter>源文件\classInheritance</Filter>
     </ClCompile>
   </ItemGroup>
@@ -162,6 +165,9 @@
       <Filter>头文件\classInheritance</Filter>
     </ClInclude>
     <ClInclude Include="classInheritance\inc\tabtenn1.h">
+      <Filter>头文件\classInheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="classInheritance\inc\brass.h">
       <Filter>头文件\classInheritance</Filter>
     </ClInclude>
   </ItemGroup>

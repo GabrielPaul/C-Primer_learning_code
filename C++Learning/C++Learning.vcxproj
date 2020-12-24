@@ -142,8 +142,9 @@
     <ClCompile Include="classAndDynamicMemory\src\String.cpp" />
     <ClCompile Include="classAndDynamicMemory\src\strngbad.cpp" />
     <ClCompile Include="classAndDynamicMemory\src\useStrngBadX.cpp" />
-    <ClCompile Include="classInheritance\inc\tabtenn1.cpp" />
+    <ClCompile Include="classInheritance\src\brass.cpp" />
     <ClCompile Include="classInheritance\src\tabtenn0.cpp" />
+    <ClCompile Include="classInheritance\src\tabtenn1.cpp" />
     <ClCompile Include="classInheritance\src\useClassExample.cpp" />
     <ClCompile Include="example\Queue\inc\Customer.cpp" />
     <ClCompile Include="example\Queue\src\Queue.cpp" />
@@ -163,6 +164,7 @@
     <ClInclude Include="classAndDynamicMemory\inc\String.h" />
     <ClInclude Include="classAndDynamicMemory\inc\strngbad.h" />
     <ClInclude Include="classAndDynamicMemory\inc\useStrngBadX.h" />
+    <ClInclude Include="classInheritance\inc\brass.h" />
     <ClInclude Include="classInheritance\inc\tabtenn0.h" />
     <ClInclude Include="classInheritance\inc\tabtenn1.h" />
     <ClInclude Include="classInheritance\inc\useClassExample.h" />

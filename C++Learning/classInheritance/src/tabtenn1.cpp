@@ -1,4 +1,4 @@
-#include "tabtenn1.h"
+#include "../inc/tabtenn1.h"
 #include<iostream>
 #include<cstring>
 RatePlayer::RatePlayer(unsigned int r, const char* fn, const char* ln, bool ht)
