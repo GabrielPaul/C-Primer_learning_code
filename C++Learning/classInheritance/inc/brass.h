@@ -1,4 +1,5 @@
 #pragma once
+#if 0
 class Brass {
 private:
 	enum { MAX = 35 };
@@ -34,3 +35,4 @@ public:
 	void ResetRate(double r) { rate = r; };
 	void ResetOwes() { oweBank = 0; };
 };
+#endif

@@ -64,6 +64,7 @@ void usett1()
 	cout << ": Rating:" << rplayer2.Rating() << endl;
 }
 
+#if 0
 //usebrass1.cpp --testing bank accout classes
 //compile with brass.cpp
 #include<iostream>
@@ -86,11 +87,13 @@ void usebrass1()
 	Hoggy.Withdraw(4200.00);
 	Hoggy.ViewAcct();
 }
+#endif
 
 //usebrass2.cpp --polyorphic example
 //compile with brass.cpp
 #include<iostream>
-#include"../inc/brass.h"
+//#include"../inc/brass.h"
+#include"../../ABC/inc/acctabc.h"
 void usebrass2()
 {
 	const int CLINETS = 4;
@@ -98,7 +101,8 @@ void usebrass2()
 	using std::cin;
 	using std::cout;
 	using std::endl;
-	Brass* p_clients[CLINETS];
+	//Brass* p_clients[CLINETS];
+	AcctABC* p_clients[CLINETS];
 
 	int i;
 	for (i = 0; i < CLINETS; i++) 

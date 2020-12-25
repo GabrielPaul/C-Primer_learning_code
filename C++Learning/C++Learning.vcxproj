@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ABC\src\acctabc.cpp" />
     <ClCompile Include="classAndDynamicMemory\src\String.cpp" />
     <ClCompile Include="classAndDynamicMemory\src\strngbad.cpp" />
     <ClCompile Include="classAndDynamicMemory\src\useStrngBadX.cpp" />
@@ -161,6 +162,7 @@
     <ClCompile Include="typeTransform\src\typTranExp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ABC\inc\acctabc.h" />
     <ClInclude Include="classAndDynamicMemory\inc\String.h" />
     <ClInclude Include="classAndDynamicMemory\inc\strngbad.h" />
     <ClInclude Include="classAndDynamicMemory\inc\useStrngBadX.h" />

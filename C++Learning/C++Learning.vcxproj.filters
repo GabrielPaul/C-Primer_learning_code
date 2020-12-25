@@ -49,6 +49,12 @@
     <Filter Include="源文件\classInheritance">
       <UniqueIdentifier>{7a79dfe6-817e-4577-ac6a-ae8b1c7faed9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\ABC">
+      <UniqueIdentifier>{9237b634-c06d-4b2d-aee7-5e7ad3a05a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ABC">
+      <UniqueIdentifier>{6ebec1d5-da48-4d6a-bc7a-8ba1f5045c14}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -111,6 +117,9 @@
     <ClCompile Include="classInheritance\src\tabtenn1.cpp">
       <Filter>源文件\classInheritance</Filter>
     </ClCompile>
+    <ClCompile Include="ABC\src\acctabc.cpp">
+      <Filter>源文件\ABC</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="overloadOpera\inc\mytime0.h">
@@ -169,6 +178,9 @@
     </ClInclude>
     <ClInclude Include="classInheritance\inc\brass.h">
       <Filter>头文件\classInheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="ABC\inc\acctabc.h">
+      <Filter>头文件\ABC</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

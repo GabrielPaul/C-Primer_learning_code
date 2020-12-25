@@ -1,0 +1,57 @@
+#pragma once
+#include <iostream>
+//Abstract Base Class
+class AcctABC {
+private:
+	enum { MAX = 35 };
+	char fullName[MAX];
+	long acctNum;
+	double balance;
+
+protected:
+	const char* FullName()const { return fullName; };
+	long AcctNum()const { return acctNum; };
+	std::ios_base::fmtflags SetFormat()const;
+
+public:
+	AcctABC(const char* s = "Nullbody", long an = -1,
+		double bal = 0.0);
+	void Deposit(double amt);
+	virtual void WithDraw(double amt) = 0;	//pure virtual function
+	double Balance()const { return balance; };
+	virtual void ViewAcct()const = 0;	//pure virtual function
+	virtual ~AcctABC() {};
+};
+
+class Brass :public AcctABC {
+public:
+	Brass(const char* s = "Nullbody", long an = -1,
+		double bal = 0.0) :AcctABC(s, an, bal) {};
+
+	// 通过 AcctABC 继承
+	virtual void WithDraw(double amt) override;
+	//virtual void WithDraw(double amt);
+	virtual void ViewAcct() const override;
+	virtual ~Brass() {};
+};
+
+class BrassPlus :public AcctABC {
+private:
+	double maxLoan;
+	double rate;
+	double owesBank;
+
+public:
+	BrassPlus(const char* s = "Nullbody", long an = -1,
+		double bal = 0.0, double ml = 500,
+		double r = 0.10);
+	BrassPlus(const Brass& ba, double ml = 500,double r = 0.10);
+
+	// 通过 AcctABC 继承
+	virtual void WithDraw(double amt) override;
+	virtual void ViewAcct() const override;
+
+	void ResetMax(double m) { maxLoan = m; };
+	void ResetRate(double r) { rate = r; };
+	void ResetOwes() { owesBank = 0; };
+};
