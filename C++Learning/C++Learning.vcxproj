@@ -150,6 +150,8 @@
     <ClCompile Include="example\Queue\inc\Customer.cpp" />
     <ClCompile Include="example\Queue\src\Queue.cpp" />
     <ClCompile Include="example\Queue\src\useQueue.cpp" />
+    <ClCompile Include="inheritAndDynamicMemory\src\dma.cpp" />
+    <ClCompile Include="inheritAndDynamicMemory\src\example.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="overloadOpera\src\mytime0.cpp" />
     <ClCompile Include="overloadOpera\src\mytime1.cpp" />
@@ -173,6 +175,8 @@
     <ClInclude Include="example\Queue\inc\Customer.h" />
     <ClInclude Include="example\Queue\inc\Queue.h" />
     <ClInclude Include="example\Queue\inc\useQueue.h" />
+    <ClInclude Include="inheritAndDynamicMemory\inc\dma.h" />
+    <ClInclude Include="inheritAndDynamicMemory\inc\example.h" />
     <ClInclude Include="overloadOpera\inc\mytime0.h" />
     <ClInclude Include="overloadOpera\inc\mytime1.h" />
     <ClInclude Include="overloadOpera\inc\mytime2.h" />

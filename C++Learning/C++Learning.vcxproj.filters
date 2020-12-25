@@ -55,6 +55,12 @@
     <Filter Include="源文件\ABC">
       <UniqueIdentifier>{6ebec1d5-da48-4d6a-bc7a-8ba1f5045c14}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\inheritAndDynamicMemory">
+      <UniqueIdentifier>{4cdb958b-9c94-434e-8b32-286cdacb1e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\inheritAndDynamicMemory">
+      <UniqueIdentifier>{8ecc2dea-3a7e-4876-b05f-957f4052b16c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -120,6 +126,12 @@
     <ClCompile Include="ABC\src\acctabc.cpp">
       <Filter>源文件\ABC</Filter>
     </ClCompile>
+    <ClCompile Include="inheritAndDynamicMemory\src\dma.cpp">
+      <Filter>源文件\inheritAndDynamicMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="inheritAndDynamicMemory\src\example.cpp">
+      <Filter>源文件\inheritAndDynamicMemory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="overloadOpera\inc\mytime0.h">
@@ -181,6 +193,12 @@
     </ClInclude>
     <ClInclude Include="ABC\inc\acctabc.h">
       <Filter>头文件\ABC</Filter>
+    </ClInclude>
+    <ClInclude Include="inheritAndDynamicMemory\inc\dma.h">
+      <Filter>头文件\inheritAndDynamicMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="inheritAndDynamicMemory\inc\example.h">
+      <Filter>头文件\inheritAndDynamicMemory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

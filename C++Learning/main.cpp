@@ -4,6 +4,7 @@
 #include "classAndDynamicMemory/inc/useStrngBadX.h"
 #include"example/Queue/inc/useQueue.h"
 #include"classInheritance/inc/useClassExample.h"
+#include"inheritAndDynamicMemory/inc/example.h"
 
 int main()
 {
@@ -25,5 +26,6 @@ int main()
 	//useBaseClass();
 	//usett1();
 	//usebrass1();
-	usebrass2();
+	//usebrass2();
+	usedma();
 }
